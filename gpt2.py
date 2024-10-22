@@ -44,7 +44,3 @@ sample_outputs = model.generate(inputs.input_ids,
 for i, sample_output in enumerate(sample_outputs):
     print(f">> Generated text {i+1}\n\n{tokenizer.decode(sample_output.tolist(), skip_special_tokens=True)}")
 
-# >> Generated text
-# Quem era Jim Henson? Jim Henson era um executivo de televisão e diretor de um grande estúdio de cinema mudo chamado Selig,
-# depois que o diretor de cinema mudo Georges Seuray dirigiu vários filmes para a Columbia e o estúdio.
-
