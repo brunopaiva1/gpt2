@@ -23,9 +23,6 @@ predicted_text = tokenizer.decode([predicted_index])
 print('input text:', text)
 print('predicted text:', predicted_text)
 
-# input text: Quem era Jim Henson? Jim Henson era um
-# predicted text:  homem
-
 # input sequence
 text = "Quem era Pelé? Pelé era um"
 inputs = tokenizer(text, return_tensors="pt")
